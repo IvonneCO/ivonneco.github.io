@@ -1,17 +1,17 @@
 html {
-  font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
-  font-family: "Open Sans", sans-serif; /* El resultado que obtuviste de Google fonts */
+  font-size: 10px; /*px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+  font-family: "Open Sans", sans-serif; /*El resultado que se obtuvo de google fonts */
 }
 
 h1 {
   font-size: 60px;
-  text-align: center;
+  text-align: center; /*Ubicación del elemento h1*/
 }
 
 p, li, a {
   font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+  line-height: 2; /*Ancho de línea*/
+  letter-spacing: 1px; /*Espacio entre letras*/
 }
 
 a {
@@ -19,22 +19,22 @@ a {
 }
 
 html {
-  background-color: #999999;
+  background-color: #999999; /*Color de la página*/
 }
 
 body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #FF9500; /* color de fondo del contenido y del relleno */
-  padding: 0 20px 20px 20px; /* espacio alrededor del texto del párrafo; arriba, derecha, abajo, izquierda. En dirección a las manesillas del reloj */
-  border: 5px solid white;
+  width: 600px; /*Ancho del elemento*/
+  margin: 0 auto; /*Espacio fuera del elemento que lo separa de los demás*/
+  background-color: #FF9500; /*Color de fondo del contenido y del relleno*/
+  padding: 0 20px 20px 20px; /*Espacio alrededor del texto del párrafo; arriba, derecha, abajo, izquierda. En dirección a las manesillas del reloj*/
+  border: 5px solid white; /*Línea que se encuentra fuera del relleno*/
 }
 
 h1 {
   margin: 0;
-  padding: 20px 0;/* arriba y abajo 20px, izquierda y derecha 0 */
+  padding: 20px 0;/*Arriba y abajo 20px, izquierda y derecha 0*/
   color: #00539F;
-  text-shadow: 3px 3px 1px black; /* sombreado del titulo */
+  text-shadow: 3px 3px 1px black; /*Sombreado del título. Horizontal, vertical, desenfoque y color*/
 }
 
 img {
